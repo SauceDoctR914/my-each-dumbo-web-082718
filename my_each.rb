@@ -9,6 +9,10 @@ def my_each(words)
   end
 end
 
-[1,2,3].each { |n|
+def my_map(array)
+
+end
+
+[1,2,3].my_each { |n|
   puts "n + 1 = #{n+1}"
 }
