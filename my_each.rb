@@ -14,7 +14,7 @@ def my_map(array)
     new_arr = []
     i = 0 
     while i < aray.length
-      new_arr << array[i] + 1  #yield(array[i])
+      new_arr << yield(array[i])
       i = i + 1
     end
     new_arr 
@@ -27,6 +27,6 @@ end
 
 
 [1,2,3].my_map { |n|
-  n + 1
+  n + 2
 }
 
