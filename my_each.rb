@@ -9,6 +9,6 @@ def my_each(words)
   end
 end
 
-[1,2,3].each do |n|
+[1,2,3].each { |n|
   puts "n + 1 = #{n+1}"
-end
+}
